@@ -14,8 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.revature.start.scarlet.beans.Statements;
 import com.revature.start.scarlet.services.StatementsService;
-@CrossOrigin(origins = "", allowedHeaders = "", methods = { RequestMethod.POST, RequestMethod.GET, RequestMethod.PUT,
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = { RequestMethod.POST, RequestMethod.GET, RequestMethod.PUT,
 	       RequestMethod.DELETE })
+//@CrossOrigin
 @RestController
 @RequestMapping("/statement")
 
