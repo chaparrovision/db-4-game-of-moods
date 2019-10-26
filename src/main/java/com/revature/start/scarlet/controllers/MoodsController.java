@@ -14,10 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.revature.start.scarlet.beans.MoodsBean;
 import com.revature.start.scarlet.services.MoodsService;
 
-@RestController
-@RequestMapping("/mood")
 @CrossOrigin(origins = "", allowedHeaders = "", methods = { RequestMethod.POST, RequestMethod.GET, RequestMethod.PUT,
 	       RequestMethod.DELETE })
+@RestController
+@RequestMapping("/mood")
+
 public class MoodsController {
 	@Autowired
 	MoodsService moodservice;
