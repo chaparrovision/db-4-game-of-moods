@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.revature.start.scarlet.beans.MoodsBean;
+//import com.revature.start.scarlet.beans.MoodsBean;
 import com.revature.start.scarlet.beans.Statements;
 import com.revature.start.scarlet.repos.StatementsRepo;
 
