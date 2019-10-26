@@ -9,15 +9,13 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="statement_tbl")
-
 public class Statements {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
 	@Column(nullable = false)
-	private String statement;
-	
+	private String statement;	
 	public Statements() {
 	}
 	
